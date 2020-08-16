@@ -1,0 +1,141 @@
+.colorPrimary{
+    color: #0b4870 !important;
+}
+.colorPrimaryDark{
+    color: #002144 !important;
+}
+.colorPrimaryLight{
+    color: #46739f !important;
+}
+.colorAccent{
+    color: #ffbe55 !important;
+}
+.colorAccentLight{
+    color: #fff085 !important;
+}
+.colorAccentDark{
+    color: #c88e24 !important;
+}
+.white{
+    color: #ffffff !important;
+}
+.black{
+    color: #000000 !important;
+}
+.grey{
+    color: #bebebe !important;
+}
+.greyDark{
+    color: #373539 !important;
+}
+.bg-custom-primary{
+    background-image: linear-gradient(to left,#46739f,#002144);
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.btn-info{
+    font-size: 14px !important;
+    margin-top: 3px;
+}
+.navbar{
+    padding:0 !important;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #fff085;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* banner */
+
+#banner{
+    background-image: linear-gradient(to left,#46739f,#002144);
+    color: #ffffff;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 70px;
+}
+.img-fluid{
+    width: 70%;
+}
+.bottom-img{
+    width: 100%;
+}
+
+/* services */
+#services{
+    padding: 20px 0;
+}
+#services h4{
+    text-transform: uppercase;
+}
+
+#marketing-img{
+    width: 50%;
+    /* margin: 30px 0px; */
+}
+.services{
+    padding: 20px;
+}
+.title::before{
+    content: '';
+    background: #002144;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+}
+.title::after{
+    content: '';
+    background: #0b4870;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(15px);
+}
+.txt{
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+/* about */
+
+#about-us{
+    background: #bebebe;
+    padding: 20px 0;
+
+}
+.about-title{
+    font-size: 30px;
+    margin-top: 8%;
+    font-weight: 600;
+}
